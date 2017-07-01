@@ -110,7 +110,7 @@ TaskView.prototype = {
 
             if (tasks[task].taskStatus == 'completed') {
                 html += '<div style="color:green;">';
-
+                
             } else {
                 html += "<div>";
             }
