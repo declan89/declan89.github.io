@@ -33,6 +33,8 @@ var TaskModel = function () {
      setTasksAsCompleted: function () {
          var selectedTasks = this.selectedTasks;
          for (var index in selectedTasks) {
+             alert('index:' + index)
+             alert('selectedTasks[index]:' + selectedTasks[index])
              this.tasks[selectedTasks[index]].taskStatus = 'completed';
          }
 
